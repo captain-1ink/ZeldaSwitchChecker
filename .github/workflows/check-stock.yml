@@ -1,8 +1,8 @@
 name: Stock Checker
 
 on:
-  schedule:
-    - cron: "3,10,17,24,31,38,45,52,59 * * * *"
+  #schedule:
+    #- cron: "3,10,17,24,31,38,45,52,59 * * * *"
   workflow_dispatch:
 
 jobs:
